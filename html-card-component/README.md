@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://tranquil-sponge.surge.sh/)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/card-component-practice-mk-Sgs2XAK9Y)
+- Live Site URL: [Live site URL](https://tranquil-sponge.surge.sh/)
 
 ## My process
 
