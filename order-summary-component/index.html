@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Order summary card | markosmk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="image-background bg-primaryPale bg-contain bg-top bg-no-repeat">
+    <div class="px-6 pt-[70px] lg:pt-[103px]">
+      <div
+        class="mx-auto flex max-w-md flex-col overflow-hidden rounded-3xl bg-white shadow-2xl shadow-indigo-300 lg:rounded-[20px]"
+      >
+        <div>
+          <img
+            src="./src/assets/images/illustration-hero.svg"
+            alt="ilustration hero"
+          />
+        </div>
+        <div class="px-6 py-[30px] lg:py-[43px] lg:px-12">
+          <div class="text-center">
+            <h2
+              class="mb-4 text-[22px] font-black text-neutralDark lg:text-[28px]"
+            >
+              Order Summary
+            </h2>
+
+            <p
+              class="text-base font-medium leading-[1.58rem] -tracking-[0.0256em] text-neutralDesa lg:mx-4 lg:-tracking-normal"
+            >
+              You can now listen to millions of<br
+                class="flex lg:hidden"
+              />songs, audiobooks, and podcasts on<br class="flex lg:hidden" />
+              any device anywhere you like!
+            </p>
+          </div>
+
+          <div
+            class="my-6 flex items-center justify-start rounded-2xl bg-neutralPale p-4 lg:py-[20px] lg:px-[22px]"
+          >
+            <img src="./src/assets/images/icon-music.svg" alt="music icon" />
+
+            <div
+              class="ml-5 mr-auto flex flex-col text-sm tracking-wide lg:ml-5 lg:text-base"
+            >
+              <span class="mb-[2px] font-bold text-neutralDark"
+                >Annual Plan</span
+              >
+              <span class="text-neutralDesa">$59.99/year</span>
+            </div>
+
+            <a
+              href="#"
+              class="text-[13px] font-bold text-primaryBri underline hover:no-underline hover:opacity-70 lg:text-[0.9rem]"
+              >Change</a
+            >
+          </div>
+
+          <div>
+            <button
+              class="block w-full rounded-xl bg-primaryBri py-[0.8rem] text-base font-bold tracking-[-0.02em] text-white shadow-xl shadow-violet-200 hover:opacity-70 lg:mt-[35px]"
+            >
+              Proceed to Payment
+            </button>
+            <button
+              class="mt-2 block w-full rounded-xl bg-transparent pt-[0.84rem] text-base font-bold tracking-[-0.02em] text-neutralDesa hover:text-neutralDark lg:mt-[18px]"
+            >
+              Cancel Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
