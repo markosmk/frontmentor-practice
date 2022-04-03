@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: hsl(31, 77%, 52%);
+  --secondary: hsl(184, 100%, 22%);
+  --terciary: hsl(179, 100%, 13%);
+  --neutral: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+  --neutralLight: hsl(0, 0%, 95%); /* background, headings, buttons */
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.fontLexend {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+}
