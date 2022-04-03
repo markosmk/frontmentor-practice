@@ -14,13 +14,14 @@
   </head>
   <body class="bg-neutralBack px-6 pt-[60px] lg:pt-[150px]">
     <div
+      role="card"
       class="mx-auto max-w-[348px] rounded-2xl bg-neutralCard p-6 text-neutralWhite shadow-xl"
     >
-      <div class="flex flex-col">
+      <div class="flex flex-col" role="main">
         <a
           href="#"
-          alt="ethereum link"
           class="group relative mt-[1px] overflow-hidden rounded-xl lg:mt-0"
+          role="image card"
         >
           <div class="absolute inset-0 hidden group-hover:block">
             <img
@@ -37,17 +38,14 @@
           />
         </a>
 
-        <a
-          href="#"
-          alt="equilibrium"
-          class="inline-flex transition-colors hover:text-primaryCyan"
-        >
+        <a href="#" class="inline-flex transition-colors hover:text-primaryCyan">
           <h1 class="mt-[1.42rem] text-[22px] font-semibold lg:mt-[1.35rem]">
             Equilibrium #3429
           </h1>
         </a>
 
         <p
+          role="paragraph"
           class="mt-[0.67rem] font-light leading-[1.58rem] text-primarySoft lg:mt-[0.8rem] lg:text-lg lg:leading-[1.6rem]"
         >
           Our Equilibrium collection promotes balance and calm.
@@ -78,9 +76,10 @@
         </div>
       </div>
       <hr
+        role="divisor"
         class="mt-[0.8rem] mb-[1.05rem] border-neutralLine lg:mt-[1.3rem] lg:mb-[1rem]"
       />
-      <div class="flex items-center justify-start">
+      <div role="footer-card" class="flex items-center justify-start">
         <img
           src="./src/assets/images/image-avatar.png"
           alt="jules avatar"
@@ -88,10 +87,7 @@
         />
         <div class="text-[0.97rem] font-light text-primarySoft lg:text-[1.02rem]">
           Creation of
-          <a
-            href="#"
-            alt="enlace author"
-            class="text-white transition-colors hover:text-primaryCyan"
+          <a href="#" class="text-white transition-colors hover:text-primaryCyan"
             >Jules Wyvern</a
           >
         </div>
