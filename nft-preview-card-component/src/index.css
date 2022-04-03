@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-soft: hsl(215, 51%, 70%);
+  --primary-cyan: hsl(178, 100%, 50%);
+  --neutral-back: hsl(217, 54%, 11%);
+  --neutral-card: hsl(216, 50%, 16%);
+  --neutral-line: hsl(215, 32%, 27%);
+  --neutral-white: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
