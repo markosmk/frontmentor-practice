@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-neutralBack px-6 pt-[60px] lg:pt-[150px]">
+    <div
+      class="mx-auto max-w-[348px] rounded-2xl bg-neutralCard p-6 text-neutralWhite shadow-xl"
+    >
+      <div class="flex flex-col">
+        <a
+          href="#"
+          alt="ethereum link"
+          class="group relative mt-[1px] overflow-hidden rounded-xl lg:mt-0"
+        >
+          <div class="absolute inset-0 hidden group-hover:block">
+            <img
+              src="./src/assets/images/icon-view.svg"
+              alt=""
+              class="absolute inset-0 z-10 m-auto"
+            />
+            <div class="h-full w-full bg-primaryCyan opacity-50"></div>
+          </div>
+          <img
+            src="./src/assets/images/image-equilibrium.jpg"
+            alt="equilibrium post"
+            class="rounded-xl"
+          />
+        </a>
+
+        <a
+          href="#"
+          alt="equilibrium"
+          class="inline-flex transition-colors hover:text-primaryCyan"
+        >
+          <h1 class="mt-[1.42rem] text-[22px] font-semibold lg:mt-[1.35rem]">
+            Equilibrium #3429
+          </h1>
+        </a>
+
+        <p
+          class="mt-[0.67rem] font-light leading-[1.58rem] text-primarySoft lg:mt-[0.8rem] lg:text-lg lg:leading-[1.6rem]"
+        >
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="mt-[0.8rem] flex items-center justify-between lg:mt-[1.3rem]">
+          <div class="flex items-center">
+            <img
+              src="./src/assets/images/icon-ethereum.svg"
+              alt="ethereum icon"
+              class="mr-[0.35rem] h-[18px] align-middle"
+            />
+            <span class="text-[0.96rem] font-semibold text-primaryCyan lg:text-[1.05rem]"
+              >0.041 ETH</span
+            >
+          </div>
+          <div class="flex items-center">
+            <img
+              src="./src/assets/images/icon-clock.svg"
+              alt="ethereum icon"
+              class="mr-[0.35rem] h-[18px] w-[18px]"
+            />
+            <span
+              class="text-[0.97rem] font-light leading-[0.95rem] text-primarySoft lg:text-[1.04rem]"
+              >3 days left</span
+            >
+          </div>
+        </div>
+      </div>
+      <hr
+        class="mt-[0.8rem] mb-[1.05rem] border-neutralLine lg:mt-[1.3rem] lg:mb-[1rem]"
+      />
+      <div class="flex items-center justify-start">
+        <img
+          src="./src/assets/images/image-avatar.png"
+          alt="jules avatar"
+          class="mr-[0.95rem] h-[33px] w-[33px] rounded-full border border-white"
+        />
+        <div class="text-[0.97rem] font-light text-primarySoft lg:text-[1.02rem]">
+          Creation of
+          <a
+            href="#"
+            alt="enlace author"
+            class="text-white transition-colors hover:text-primaryCyan"
+            >Jules Wyvern</a
+          >
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
