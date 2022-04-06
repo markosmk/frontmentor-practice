@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --darkElements: hsl(209, 23%, 22%);
+  --darkBg: hsl(207, 26%, 17%);
+  --lightText: hsl(200, 15%, 8%);
+  --lightInput: hsl(0, 0%, 52%);
+  --lightBg: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+}
